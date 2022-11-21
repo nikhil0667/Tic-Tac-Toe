@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                      Toast.makeText(this, "Winner is "+b1, Toast.LENGTH_SHORT).show();
                      newGame();
             }
-            else if(b2.equals(b5)&&b5.equals(b8)&& !b7.equals("")){
+            else if(b2.equals(b5)&&b5.equals(b8)&& !b2.equals("")){
                 //5
                      Toast.makeText(this, "Winner is "+b2, Toast.LENGTH_SHORT).show();
                      newGame();
